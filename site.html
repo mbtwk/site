@@ -1,0 +1,117 @@
+<HTML>
+<HEAD>
+  
+    <title>Сайт-резюме</title>
+    <link href="CSS\MySite.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/33c2a6b246.js" crossorigin="anonymous"></script>
+    <div class="gradient-text">
+    <!-- <p><b>Сайт-резюме</b></p> -->
+    <script type="text/javascript">
+      function setZoom() {
+        if (window.matchMedia('(min-width: 780px) and (max-width: 1280px)').matches) {
+          document.body.style.zoom = "70%";
+        } else {
+          document.body.style.zoom = "100%";
+        }
+      }
+      
+      // Викликаємо функцію для встановлення масштабу під час завантаження сторінки
+      setZoom();
+      
+      // Обробляємо подію зміни розміру вікна
+      window.addEventListener('resize', setZoom);
+      
+      function alignBlocks() {
+  const rows = document.querySelectorAll('.grid-row');
+  rows.forEach(row => {
+    let maxHeight = 0;
+    row.querySelectorAll('.grid-item').forEach(item => {
+      const height = item.offsetHeight;
+      if (height > maxHeight) {
+        maxHeight = height;
+      }
+    });
+    row.querySelectorAll('.grid-item').forEach(item => {
+      item.style.height = maxHeight + 'px';
+    });
+  });
+}
+ 
+// Викликаємо функцію при завантаженні сторінки і при зміні розмірів вікна
+window.addEventListener('load', alignBlocks);
+window.addEventListener('resize', alignBlocks);
+    </script>
+  </div>
+
+</HEAD>
+
+<BODY> 
+  <nav class="nav">
+  <div class="backimage"> <div class="photo"><img class="photo"  src="https://st2.depositphotos.com/4441075/7755/v/450/depositphotos_77558325-stock-illustration-photo-camera-simple-web-icon.jpg" width="300em" height="300em"  alt="error"/> 
+  </div>
+    <h1>Гусев Микита Ігорович</h1>
+
+<div class="tabble" >
+  <table width="70%" height="250em">
+    
+    <thead>
+      <tr>
+        <th><h2>Як зі мною зв'язатися</h2></th>
+        <th><h2>Мови програмування</h2></th>
+        <th><h2>Інформація про мене</h2></th>
+      </tr>
+    </thead>
+    <tr>
+      <td class="shadow-text"><i class="fa-solid fa-phone"></i><a href="tel:+380667920711" >+380667920711</a></td>
+      <td>C#</td>
+      <td>Дата народження: 15.10.2004</td>
+    </tr> 
+    <tr>
+      <td class="shadow-text"><i class="fa-solid fa-envelope"></i><a href="mailto:gusev1510@gmail.com" >gusev1510@gmail.com</a></td>
+      <td>Python</td>
+      <td>Адреса проживання: Місто Херсон</td>
+    </tr>
+    <tr>
+      <td class="shadow-text"><i class="fa-brands fa-telegram"></i><a href="https://t.me/mbtwk" >Telegram</a></td>
+      <td>C++</td>
+      <td></td>
+    </tr> 
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr> 
+ 
+    </table>
+  </div>
+</div>
+    <hr></nav>
+    <div class="background_color">
+   <h2>Освіта:</h2>
+      <p>Херсонська гімназія 6 2010-2021, Херсонський державний університет, 2021-2025,ступінь бакалавра Комп'ютерних наук</p>
+      <h2>Позиція:</h2>
+<p> Стажер 3д</p>
+<h2>Навички</h2>
+<p>Моделювання в 3д середовищах, текстуринг, анімація, скульптинг</p>
+<h2>Бази даних:</h2>
+<p>  Досвід роботи з MySQL</p>
+<h2> Інструменти розробки:</h2>
+<p> Autodesk 3DsMax, Blender, Visual Studio.</p>
+<h2>Комунікаційні навички:</h2>
+<p>Здатність працювати в команді і вміння знаходити спільну мову з колегами та клієнтами.</p>
+<h2>Мови:</h2>
+<p> Українська С2(носій), Англійська B1, Німецька В1.</p>
+</div>
+
+
+
+</BODY>
+<footer>
+  
+  
+    <p><a href="mailto:gusev1510@gmail.com">Пошта</a></p>
+    <p><a href="tel:+380667920711">Телефону</a></p>
+
+  </footer>
+</HTML>
