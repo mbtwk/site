@@ -1,0 +1,151 @@
+/* head
+{
+    font-family: monospace;
+    color:aquamarine
+    
+} */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+.photo {
+    
+    overflow: hidden;
+  }
+  
+  img {
+    transition: transform 0.25s;
+  }
+  
+  .photo:hover img {
+    transform: scale(1.1);
+  }
+  .text:hover p {
+    transform: scale(1.1);
+  }
+  p{transition: transform 0.25s;}
+.main-content{
+  padding: 10px;
+  background: #bbb;
+  min-height: 1000px;
+  margin-top: 15px;
+}
+.nav{
+  padding: 5px;
+  background: #222;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;}
+.header {
+    position: sticky;
+    top: 0;}
+html {
+    scroll-behavior: smooth;
+  }
+body
+{  
+    /* background-image: url('https://st.depositphotos.com/30440304/54489/i/600/depositphotos_544897434-stock-photo-luxury-dark-background-website-poster.jpg');
+    background-size: cover; /* Заповнює фон весь екран */
+    background-repeat: no-repeat; */
+    font-family: 'PT Sans', sans-serif;
+    
+   background-color: rgb(26, 26, 26);
+    }
+.backimage{
+    background-image: url('https://st.depositphotos.com/30440304/54489/i/600/depositphotos_544897434-stock-photo-luxury-dark-background-website-poster.jpg');
+    background-size:100% 100%; /* Заповнює фон весь екран */
+    background-repeat: no-repeat;
+}
+p
+{
+    
+    color: rgb(227,204,204,89);   
+}
+h1
+{
+    -webkit-text-shadow: 18px -9px 5px rgba(255,  255,  255, 0.63);
+    -moz-text-shadow: 18px -9px 5px rgba(255,  255,  255, 0.63);
+    text-shadow: 18px -9px 5px rgba(255,  255,  255, 0.63);
+    color: #E8D4D1;  
+font-style:oblique;
+
+}
+a
+{
+color: #E8D4D1;
+}
+h2{
+    -webkit-text-shadow: 5px -2px 5px rgba(255,  255,  255, 0.63);
+    -moz-text-shadow: 5px -2px 5px rgba(255,  255,  255, 0.63);
+    text-shadow: 5px -2px 5px rgba(255,  255,  255, 0.63);
+    color: #E8D4D1;
+    
+}
+hr {
+    border-width: 10px; /* Встановлюємо ширину границі в 1 піксель */
+  }
+/* h2
+{
+    color:aquamarine;
+text-align: center;
+} */
+
+.tabble
+{
+    margin-left: 1em;
+    font-style:oblique;
+
+}
+table
+{
+
+   text-align: center;
+   color: rgb(200,213,222,87);
+}
+.photo
+{
+   
+    float: left; 
+     margin-right: 20px;
+}
+
+.common_color {
+   color: rgb(200,213,222,87);
+  }
+  .triangle {
+    margin: right;
+    width: 200px; /* Задаємо ширину в пікселях */
+    height: 100px; /* Задаємо висоту в пікселях */
+    border-bottom: 200px solid rgb(40, 60, 70); /* Нижня сторона трикутника і його колір */
+    transform: rotate(90deg)
+  }
+  .background_color{
+   
+    background-color: rgb(37, 37, 37);
+  }
+.t_right{
+float:right
+}
+.t_left{
+    float:left
+}
+
+
+ 
+footer
+{
+text-align: right;
+}
+.shadow-text{
+    color: #4f4f4f; /* колір  тексту */
+    
+    font-weight: bold;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+  .shadow-text:hover{
+    color: #91ecfc; /* змінюємо колір тексту */
+    -webkit-text-shadow: 2px 2px 2px #ffffff;
+    -moz-text-shadow: 2px 2px 2px #ffffff;
+        text-shadow: 2px 2px 2px #ffffff;
+  }
